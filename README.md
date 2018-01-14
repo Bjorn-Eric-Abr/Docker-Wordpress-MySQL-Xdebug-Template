@@ -25,7 +25,7 @@ Connect to MySQL at 127.0.0.1:3306
             "type": "php",
             "request": "launch",
             "pathMappings": {
-                "/var/www/html/wp-content/themes/02landskap": "${workspaceRoot}/my-theme"
+                "/var/www/html/wp-content/themes/my-theme": "${workspaceRoot}/my-theme"
             },
             "port": 9000
         }
