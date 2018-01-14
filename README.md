@@ -2,9 +2,9 @@
 
 Simple Docker setup for WordPress Theme development.
 
-* Wordpress:latest image (development only)
-* Xdebug (configure your IP in docker-compose.yaml *{{ip-of-machine-running-debug}}*)
-* MySQL 5.7 (consistent data in .data/data_db)
+* wordpress:php7.1-apache Docker image (latest WP, development only) with
+* Xdebug on top (configure your IP in docker-compose.yaml *{{ip-of-machine-running-debug}}*)
+* MySQL 5.7 (consistent data mounted from .data/data_db)
 
 First run
 ``docker-compose up``
